@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* base */
+/* 
+ブレイクポイント
+スマホ 320〜519px
+タブレット 560〜959px
+PC 960px以上 
+*/
+@media screen and (max-width: 959px) {
+  .ly_header .bl_headerNav_list,
+  .ly_header .el_btn.el_btn__rsv {
+    display: none;
+  }
+  .el_about_nameImg {
+    width: 45%;
+  }
+  #nav-drawer {
+    display: block;
+  }
+  #nav-drawer .el_btn.el_btn__rsv {
+    display: inline-block;
+    margin-top: 40px;
+  }
+  .bl_instagram img {
+    height: 28vw;
+  }
+}
+
+@media screen and (max-width: 857px) {
+  .ly_about_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ly_about .bl_about_img {
+    width: 70%;
+    padding: 0;
+    margin-right: auto;
+  }
+  .ly_about .el_about_nameImg {
+    top: 28vh;
+  }
+  .ly_about .bl_about_txt {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .sp-only {
+    display: block;
+  }
+  .el_notice {
+    font-size: 1.2rem;
+  }
+  .section-title {
+    font-size: 2.8rem;
+    line-height: 1.3;
+  }
+  /* HEADER */
+  .ly_header {
+    height: 74px;
+  }
+  .ly_header .bl_headerLogo {
+    padding-left: 0px;
+  }
+  .ly_header .bl_headerLogo_img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  .bl_headerLogo_ttl {
+    display: none;
+  }
+  /* FV */
+  .bl_fv_copy {
+    padding-right: 0px;
+    top: 10%;
+    text-align: right;
+    line-height: 17;
+    white-space: nowrap;
+  }
+  /* ABOUT */
+  .bl_about_txt {
+    width: auto;
+  }
+  .bl_about_txt br {
+    display: none;
+  }
+  /* MENU */
+  .ly_menu_inner {
+    display: block;
+  }
+  .ly_menu_inner .bl_menu_hand,
+  .ly_menu_inner .bl_menu_foot,
+  .ly_menu_inner .bl_menu_other {
+    margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .ly_menu_inner .bl_menu_hand ul li,
+  .ly_menu_inner .bl_menu_foot ul li,
+  .ly_menu_inner .bl_menu_other ul li {
+    margin: 0;
+  }
+  .ly_menu_inner .el_notice.sp_pr0 {
+    padding-right: 0;
+  }
+  /* GALLERY */
+  .ly_gallery .ly_gallery_inner .bl_instagram {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: -20px;
+    margin-right: 0;
+  }
+  .ly_gallery .ly_gallery_inner .bl_instagram div {
+    margin-right: 0;
+    width: 100%;
+  }
+  .ly_gallery .ly_gallery_inner .bl_instagram img {
+    margin-bottom: 20px;
+    height: 100vw;
+    max-height: 100%;
+  }
+  /* ACCESS */
+  .bl_ggmap {
+    height: 300px;
+  }
+  .bl_access_cont .el_telNumber[href^="tel:"] {
+    pointer-events: auto;
+  }
+  /* FOOTER */
+  .bl_footerLogo_ttl {
+    display: none;
+  }
+  /* RESERVED */
+  #bl_form {
+    width: 80%;
+  }
+  /* フォーム */
+  .ly_reserved form {
+    text-align: center;
+    width: 90%;
+  }
+  .ly_reserved input,
+  .ly_reserved select,
+  .ly_reserved textarea {
+    width: 70vw;
+  }
+  input.wpcf7-form-control.wpcf7-submit {
+    width: 70vw;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
