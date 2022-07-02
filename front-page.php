@@ -43,9 +43,9 @@
     </p>
     <div class="ly_menu_inner" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="bl_menu_hand">
-            <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 Hand
-            </h2>
+            </h3>
             <ul>
                 <li>
                     <p>・シンプル</p>
@@ -63,9 +63,9 @@
             </ul>
         </div>
         <div class="bl_menu_foot">
-            <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 Foot
-            </h2>
+            </h3>
             <ul>
                 <li>
                     <p>・ワンカラー</p>
@@ -78,9 +78,9 @@
             </ul>
         </div>
         <div class="bl_menu_other">
-            <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 Option
-            </h2>
+            </h3>
             <ul>
                 <li>
                     <p>・ストーン</p>
@@ -120,8 +120,9 @@
     </div>
     <div class="ly_gallery_inner">
         <div class="bl_instagram" data-aos="fade-up" data-aos-anchor-placement="top-center"></div>
+        <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
         <p class="el_notice" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            ＊画像をタップするとinstagramが開きます
+            ＊画像をタップするとInstagramが開きます
         </p>
     </div>
 </section>

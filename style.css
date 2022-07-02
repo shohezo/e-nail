@@ -18,7 +18,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.8;
   letter-spacing: 0.05em;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: Avenir, "Helvetica neue", Helvetica, "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
   background-color: rgba(182, 173, 160, 0.74);
 }
 
@@ -78,9 +78,10 @@ img {
 }
 
 .el_notice {
+  font-size: 1rem;
   margin-top: 12px;
   text-align: right;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 /* ローディング画面 */
@@ -140,8 +141,8 @@ img {
 
 .ly_header.change-color {
   background-color: #b6ada0;
-  -webkit-box-shadow: 0 0px 8px 0px #707070;
-          box-shadow: 0 0px 8px 0px #707070;
+  -webkit-box-shadow: 0 0px 8px 0px #9b9388;
+          box-shadow: 0 0px 8px 0px #9b9388;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -191,7 +192,6 @@ img {
 
 .bl_headerNav_item {
   margin-right: 46px;
-  font-family: "Marcellus", sans-serif;
 }
 
 .bl_headerNav_item:hover {
@@ -206,15 +206,14 @@ img {
 
 .el_btn.el_btn__rsv {
   color: #f2f2f2;
-  font-family: "Noto Sans JP", sans-serif;
   display: inline-block;
   padding: 12px 36px;
-  background: #c2ad33;
+  background: #c9b755;
   border-radius: 10px;
   font-size: 1.4rem;
   line-height: 1.21;
-  -webkit-box-shadow: 0 6px 16px -6px #707070;
-          box-shadow: 0 6px 16px -6px #707070;
+  -webkit-box-shadow: 0 3px 8px -6px #727272;
+          box-shadow: 0 3px 8px -6px #727272;
 }
 
 .el_btn.el_btn__rsv:hover {
@@ -317,7 +316,6 @@ img {
 .burger-item {
   border-bottom: 1px solid #ddd;
   color: #4b4b4b;
-  font-family: "Marcellus", sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -357,11 +355,11 @@ img {
   padding: 50px;
   font-size: 2.6rem;
   line-height: 1.68;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   letter-spacing: 1rem;
-  font-family: irohamaru, sans-serif;
   text-shadow: 0px 0px 1px #ffffff;
+  font-family: irohamaru, sans-serif;
 }
 
 .ly_about {
@@ -411,7 +409,6 @@ img {
 
 .ly_about_inner .bl_about_txt h3 {
   font-weight: bold;
-  font-family: "Marcellus", sans-serif;
   line-height: 2;
   color: #4b4b4b;
   margin-bottom: 30px;
@@ -465,8 +462,7 @@ img {
   margin-bottom: 0;
 }
 
-.ly_menu_inner .bl_menu_hand h2 {
-  font-family: "Marcellus", sans-serif;
+.ly_menu_inner .bl_menu_hand h3 {
   border-bottom: 1px rgba(0, 0, 0, 0.15) solid;
 }
 
@@ -477,7 +473,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Noto Sans JP", sans-serif;
   margin: 20px 0 20px 0;
 }
 
@@ -496,8 +491,7 @@ img {
   margin-bottom: 0;
 }
 
-.ly_menu_inner .bl_menu_foot h2 {
-  font-family: "Marcellus", sans-serif;
+.ly_menu_inner .bl_menu_foot h3 {
   border-bottom: 1px rgba(0, 0, 0, 0.15) solid;
 }
 
@@ -508,7 +502,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Noto Sans JP", sans-serif;
   margin: 20px 0 20px 0;
 }
 
@@ -527,8 +520,7 @@ img {
   margin-bottom: 0;
 }
 
-.ly_menu_inner .bl_menu_other h2 {
-  font-family: "Marcellus", sans-serif;
+.ly_menu_inner .bl_menu_other h3 {
   border-bottom: 1px rgba(0, 0, 0, 0.15) solid;
 }
 
@@ -539,7 +531,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Noto Sans JP", sans-serif;
   margin: 20px 0 20px 0;
 }
 
@@ -670,11 +661,10 @@ iframe {
 
 .bl_access_cont .el_notice.hp_taCenter {
   text-align: center !important;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .bl_access_cont .fa-phone {
-  font-size: 3rem;
   margin-right: 5px;
   vertical-align: 1px;
 }
@@ -685,9 +675,8 @@ iframe {
 
 .bl_access_cont .el_telNumber[href^="tel:"] {
   pointer-events: none;
-  font-size: 3rem;
   letter-spacing: 0.1em;
-  font-family: sans-serif;
+  font-size: 2rem;
 }
 
 /* footer */
@@ -771,7 +760,7 @@ iframe {
 
 .ly_reserved label.required::after {
   content: "必須";
-  background-color: #c2ad33;
+  background-color: #c9b755;
   padding: 3px 10px;
   border-radius: 10px;
   margin-left: 1rem;
@@ -806,7 +795,7 @@ input.wpcf7-form-control.wpcf7-submit {
   border: 1px solid #4b4b4b;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #c2ad33;
+  background-color: #c9b755;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -834,4 +823,4 @@ input.wpcf7-form-control.wpcf7-submit:hover::after {
 .wpcf7-not-valid-tip {
   color: red;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style 2.css.map */

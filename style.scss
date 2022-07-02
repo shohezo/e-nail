@@ -8,13 +8,14 @@ html {
 
 $bgcolor: rgba(182, 173, 160, 0.74);
 $basecolor: #4b4b4b;
-$elcolor: #c2ad33;
+$elcolor: #c9b755;
 
-$basefont: "Noto Sans JP", sans-serif;
+// $basefont: Avenir, "Helvetica neue", Helvetica, "游ゴシック", YuGothic,
+//   "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo,
+//   "ＭＳ Ｐゴシック", sans-serif;
 $s-ttlfont: milonguita, sans-serif;
-$ttlfont: "Marcellus", sans-serif;
-$desfont: " Noto Serif JP", sans-serif;
-$elfont: "Noto Sans JP", sans-serif;
+// $desfont: " Noto Serif JP", sans-serif;
+// $elfont: "Noto Sans JP", sans-serif;
 
 $f1: 3rem;
 $f2: 2.6rem;
@@ -36,7 +37,9 @@ body {
   font-size: $f4;
   line-height: 1.8;
   letter-spacing: 0.05em;
-  font-family: $basefont;
+  font-family: Avenir, "Helvetica neue", Helvetica, "游ゴシック", YuGothic,
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo,
+    "ＭＳ Ｐゴシック", sans-serif;
   background-color: $bgcolor;
 }
 h1 {
@@ -90,9 +93,10 @@ img {
 }
 
 .el_notice {
+  font-size: 1rem;
   margin-top: 12px;
   text-align: right;
-  font-weight: lighter;
+  font-weight: 300;
 }
 /* ローディング画面 */
 // #loader-bg {
@@ -164,8 +168,8 @@ img {
   left: 0;
   z-index: 100;
   &.change-color {
-    background-color: rgb(182, 173, 160);
-    box-shadow: 0 0px 8px 0px #707070;
+    background-color: #b6ada0;
+    box-shadow: 0 0px 8px 0px #9b9388;
     transition: 0.7s;
   }
   &_inner {
@@ -198,7 +202,6 @@ img {
   }
   &_item {
     margin-right: 46px;
-    font-family: $ttlfont;
     &:hover {
       opacity: 0.7;
       transition: 0.2s;
@@ -210,14 +213,13 @@ img {
 }
 .el_btn.el_btn__rsv {
   color: #f2f2f2;
-  font-family: $elfont;
   display: inline-block;
   padding: 12px 36px;
   background: $elcolor;
   border-radius: 10px;
   font-size: 1.4rem;
   line-height: 1.21;
-  box-shadow: 0 6px 16px -6px #707070;
+  box-shadow: 0 3px 8px -6px #727272;
   &:hover {
     opacity: 0.7;
     transition: 0.2s;
@@ -312,7 +314,6 @@ img {
   //burgerメニューの装飾
   border-bottom: 1px solid #ddd;
   color: $basecolor;
-  font-family: $ttlfont;
   letter-spacing: 0.1em;
 }
 .burger-link {
@@ -350,11 +351,11 @@ img {
   padding: 50px;
   font-size: $f2;
   line-height: 1.68;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   letter-spacing: 1rem;
-  font-family: irohamaru, sans-serif;
   text-shadow: 0px 0px 1px #ffffff;
+  font-family: irohamaru, sans-serif;
 }
 .ly_about {
   padding-top: 100px;
@@ -389,7 +390,6 @@ img {
       width: 40%;
       h3 {
         font-weight: bold;
-        font-family: $ttlfont;
         line-height: 2;
         color: $basecolor;
         margin-bottom: 30px;
@@ -413,15 +413,13 @@ img {
   }
   padding-right: 30px;
   padding-left: 30px;
-  h2 {
-    font-family: $ttlfont;
+  h3 {
     border-bottom: 1px rgba(0, 0, 0, 0.15) solid;
   }
   ul {
     li {
       display: flex;
       justify-content: space-between;
-      font-family: $basefont;
       margin: 20px 0 20px 0;
     }
   }
@@ -554,10 +552,9 @@ iframe {
   }
   .el_notice.hp_taCenter {
     text-align: center !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .fa-phone {
-    font-size: 3rem;
     margin-right: 5px;
     vertical-align: 1px;
     &::before {
@@ -566,9 +563,8 @@ iframe {
   }
   .el_telNumber[href^="tel:"] {
     pointer-events: none;
-    font-size: $f1;
     letter-spacing: 0.1em;
-    font-family: sans-serif;
+    font-size: 2rem;
   }
 }
 
