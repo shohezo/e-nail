@@ -48,17 +48,17 @@
             </h3>
             <ul>
                 <li>
-                    <p>・シンプル</p>
-                    <p>4,200円</p>
+                    <p>・ワンカラー</p>
+                    <p>4,300円</p>
                 </li>
                 <li>
-                    <p>・ワンカラー</p>
-                    <p>4,200円</p>
+                    <p>・シンプル</p>
+                    <p>4,500円</p>
                 </li>
                 <li>
                     <p>・ゴージャス</p>
                     <br />
-                    <p>5,200円</p>
+                    <p>5,500円</p>
                 </li>
             </ul>
         </div>
@@ -69,11 +69,11 @@
             <ul>
                 <li>
                     <p>・ワンカラー</p>
-                    <p>4,200円</p>
+                    <p>4,500円</p>
                 </li>
                 <li>
                     <p>・フットデザイン</p>
-                    <p>4,900円</p>
+                    <p>5,500円</p>
                 </li>
             </ul>
         </div>
@@ -120,7 +120,7 @@
     </div>
     <div class="ly_gallery_inner">
         <div class="bl_instagram" data-aos="fade-up" data-aos-anchor-placement="top-center"></div>
-        <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+        <?php echo do_shortcode('[instagram-feed feed=3]'); ?>
         <p class="el_notice" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             ＊画像をタップするとInstagramが開きます
         </p>
@@ -150,13 +150,16 @@
                 <p style="font-weight: 400">TUE - SUN 9:00~18:00</p>
                 </p>
             </div>
-
-            <a href="<?php bloginfo('url');?>/reserved" class="el_btn el_btn__rsv" target="_blank"
-                rel="noopener noreferrer">ご予約はこちら</a>
+            <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=rnv6405p"
+                class="el_btn el_btn__line hp_Mt32 hp_Mb32" target="_blank" rel="noopener noreferrer">
+                公式LINE
+            </a>
+            <!-- <a href="<?php bloginfo('url');?>/reserved" class="el_btn el_btn__rsv" target="_blank"
+                rel="noopener noreferrer">ご予約はこちら</a> -->
             <div>
                 <i class="fas fa-phone"></i><a href="tel:080-5206-7740" class="el_telNumber">080-5206-7740</a>
             </div>
-            <p class="el_notice hp_taCenter">※ご予約フォームかお電話でご予約の上、ご来店下さい。</p>
+            <p class="el_notice hp_taCenter">※公式LINEかお電話でご予約の上、ご来店下さい。</p>
         </div>
     </div>
 </section>

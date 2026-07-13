@@ -84,8 +84,15 @@
                     <li class="bl_headerNav_item"><a href="#access">ACCESS</a></li>
                 </ul>
             </nav>
-            <a href="<?php bloginfo('url');?>/reserved" class="el_btn el_btn__rsv" target="_blank"
-                rel="noopener noreferrer">ご予約はこちら</a>
+            <div class="btn-group">
+                <!-- <a href="<?php bloginfo('url');?>/reserved" class="el_btn el_btn__rsv" target="_blank"
+                            rel="noopener noreferrer">ご予約はこちら</a> -->
+                <p>ご予約はこちら</p>
+                <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=rnv6405p" class="el_btn el_btn__line"
+                    target="_blank" rel="noopener noreferrer">
+                    公式LINE
+                </a>
+            </div>
             <!-- drawer-menu -->
             <div id="nav-drawer">
                 <input id="nav-input" type="checkbox" class="nav-unshown" />
@@ -108,10 +115,17 @@
                             <a class="burger-link" href="#access">ACCESS</a>
                         </li>
                     </ul>
-                    <a href="<?php bloginfo('url');?>/reserved" class="el_btn el_btn__rsv" target="_blank"
-                        rel="noopener noreferrer">ご予約はこちら</a>
+                    <div class="btn-group">
+                        <!-- <a href="<?php bloginfo('url');?>/reserved" class="el_btn el_btn__rsv" target="_blank"
+                            rel="noopener noreferrer">ご予約はこちら</a> -->
+                        <p>ご予約はこちら</p>
+                        <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=rnv6405p"
+                            class="el_btn el_btn__line" target="_blank" rel="noopener noreferrer">
+                            公式LINE
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <?php wp_head(); ?>
+        </div><?php wp_head();
+                            ?>
     </header>

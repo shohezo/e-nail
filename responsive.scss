@@ -17,10 +17,12 @@ PC 960px以上
 $sp: 519px;
 $tb: 959px;
 
-@media screen and(max-width:$tb) {
+@media screen and (max-width: $tb) {
   .ly_header {
     .bl_headerNav_list,
-    .el_btn.el_btn__rsv {
+    .el_btn.el_btn__rsv,
+    .el_btn.el_btn__line,
+    .btn-group {
       display: none;
     }
   }
@@ -33,6 +35,10 @@ $tb: 959px;
   #nav-drawer .el_btn.el_btn__rsv {
     display: inline-block;
     margin-top: 40px;
+    max-width: 300px;
+  }
+  #nav-drawer .el_btn.el_btn__line {
+    display: inline-block;
   }
   .bl_instagram {
     img {
@@ -41,7 +47,7 @@ $tb: 959px;
   }
 }
 
-@media screen and(max-width:857px) {
+@media screen and (max-width: 857px) {
   .ly_about {
     &_inner {
       flex-direction: column;
@@ -61,7 +67,7 @@ $tb: 959px;
   }
 }
 
-@media screen and(max-width:$sp) {
+@media screen and (max-width: $sp) {
   //改行を入れる
   .sp-only {
     display: block;
@@ -182,4 +188,10 @@ $tb: 959px;
   input.wpcf7-form-control.wpcf7-submit {
     width: 70vw;
   }
+}
+.hp_Mt32 {
+  margin-top: 32px;
+}
+.hp_Mb32 {
+  margin-bottom: 32px;
 }

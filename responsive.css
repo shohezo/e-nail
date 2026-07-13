@@ -8,7 +8,9 @@ PC 960px以上
 */
 @media screen and (max-width: 959px) {
   .ly_header .bl_headerNav_list,
-  .ly_header .el_btn.el_btn__rsv {
+  .ly_header .el_btn.el_btn__rsv,
+  .ly_header .el_btn.el_btn__line,
+  .ly_header .btn-group {
     display: none;
   }
   .el_about_nameImg {
@@ -20,18 +22,18 @@ PC 960px以上
   #nav-drawer .el_btn.el_btn__rsv {
     display: inline-block;
     margin-top: 40px;
+    max-width: 300px;
+  }
+  #nav-drawer .el_btn.el_btn__line {
+    display: inline-block;
   }
   .bl_instagram img {
     height: 28vw;
   }
 }
-
 @media screen and (max-width: 857px) {
   .ly_about_inner {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .ly_about .bl_about_img {
     width: 70%;
@@ -46,7 +48,6 @@ PC 960px以上
     text-align: center;
   }
 }
-
 @media screen and (max-width: 519px) {
   .sp-only {
     display: block;
@@ -109,10 +110,7 @@ PC 960px以上
   }
   /* GALLERY */
   .ly_gallery .ly_gallery_inner .bl_instagram {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-bottom: -20px;
     margin-right: 0;
   }
@@ -154,4 +152,10 @@ PC 960px以上
     width: 70vw;
   }
 }
-/*# sourceMappingURL=responsive.css.map */
+.hp_Mt32 {
+  margin-top: 32px;
+}
+
+.hp_Mb32 {
+  margin-bottom: 32px;
+}/*# sourceMappingURL=responsive.css.map */
