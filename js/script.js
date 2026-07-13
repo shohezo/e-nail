@@ -34,7 +34,7 @@ $(function () {
         // ローディングを数秒後に非表示にする
         $(".loading").addClass("is-active");
         $(".loading-animation").removeClass("is-active");
-      }, 6000); // ローディングを表示する時間
+      }, 1500); // ローディングを表示する時間
     }
   };
   webStorage();

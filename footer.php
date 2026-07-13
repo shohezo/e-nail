@@ -13,8 +13,8 @@
 </footer>
 
 <!-- js読み込み -->
-<script src="<?php bloginfo('template_url');?>/js/script.js"></script>
-<script src="<?php bloginfo('template_url');?>/js/index.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/script.js?v=<?php echo filemtime(get_template_directory() . '/js/script.js'); ?>"></script>
+<script src="<?php bloginfo('template_url');?>/js/index.js?v=<?php echo filemtime(get_template_directory() . '/js/index.js'); ?>"></script>
 <!-- aosライブラリの実装 -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
