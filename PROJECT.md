@@ -27,18 +27,30 @@
 | GitHub 認証 | ✓ gh CLI / osxkeychain（ユーザー: shohezo） |
 | リポジトリ取得 | ✓ ~/e-nail にクローン済 |
 
-## 重要な注意点
+## 本番との同期（2026-07-13 完了）
 
-- **GitHub リポジトリと本番の差分**: 本リポジトリの最終 push は 2022-07-02。以降の更新は FTP 直アップロードで行われたため、**本番テーマはこのリポジトリより新しい可能性が高い**。改修前に本番テーマ一式を SFTP で取得し、差分を確認・取り込むこと。
-- テーマ改修は**子テーマ**の利用を検討（本体テーマ更新での上書き回避）。
+- リポジトリの最終コミットは 2022-07-02 だったが、本番は 2024-01 に FTP で編集されており乖離していた。
+- 本番テーマ一式を FTPS で取得し、**リポジトリを本番の現行状態に同期してコミット・プッシュ済み**（commit `74aa5b1`）。これ以降が Git 管理のベースライン。
+- 取り込んだ 2024-01 の本番変更:
+  - 予約導線を公式 LINE(LIFF) に変更、予約フォームリンクはコメントアウト温存
+  - メニュー料金改定（ワンカラー 4,300 / シンプル 4,500 ほか値上げ）
+  - Instagram フィード feed=1 → feed=3
+  - LINE ボタン用スタイル追加、img/line.png 追加
+
+## 接続情報
+
+- FTPS ホスト: `sv8633.xserver.jp` / ユーザー: `shohezo`（メイン=初期FTP、サーバーパスワードと同値）
+- パスワードは **macOS ログインキーチェーン**に保存（service: `xserver-ftp-e-nail` / account: `shohezo`）。取得: `security find-generic-password -w -s xserver-ftp-e-nail -a shohezo`
+- 本番テーマパス: `/e-nail-fukuoka.com/public_html/wp-content/themes/e-nail/`
+- lftp 接続時は**証明書検証を有効のまま**（`*.xserver.jp` で有効。`ssl:verify-certificate no` は使わない）
 
 ## 未完了・次のアクション
 
-1. エックスサーバーの FTP/SFTP 接続情報を発行（サーバーパネル「FTP アカウント設定」）※要ユーザー作業
-2. 本番テーマ一式を SFTP で取得し、2022 版リポジトリとの差分を確認・マージ
-3. デプロイ手段を決定・構築（GitHub Actions 自動デプロイ or SFTP 同期）
-4. ローカル検証環境（Local by Flywheel / wp-env / Docker 等）の要否を判断
+1. デプロイ手段を決定・構築（GitHub Actions 自動デプロイ or lftp/SFTP 同期スクリプト）
+2. テーマ改修時は**子テーマ**の利用を検討（本体テーマ更新での上書き回避）
+3. ローカル検証環境（Local by Flywheel / wp-env / Docker 等）の要否を判断
+4. 本番の `.git/`（2022 年の残骸）と `.DS_Store` の掃除を検討
 
 ## 秘匿情報の扱い
 
-FTP/SFTP パスワード・API トークン等は本ファイルや Git に直書きしない。保管場所のみ記載する。
+FTP パスワード・API トークン等は本ファイルや Git に直書きしない。キーチェーン保管、参照方法のみ記載する。

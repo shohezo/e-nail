@@ -8,5 +8,8 @@ credentials*
 # 本番からの取得物（差分確認用の一時置き場）
 /_production/
 
+# デプロイ前バックアップ（本番の退避先）
+/_backups/
+
 # macOS
 .DS_Store
