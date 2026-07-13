@@ -14,12 +14,12 @@
     <meta property="og:site_name" content="e-nail" />
     <meta property="og:image" content="https://e-nail-fukuoka.com/wp-content/themes/e-nail/img/logo.png" />
 
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.css?v=<?php echo filemtime(get_template_directory() . '/reset.css'); ?>" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_url');?>/img/favicon (1).ico" />
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css" />
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/responsive.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css?v=<?php echo filemtime(get_template_directory() . '/style.css'); ?>" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/responsive.css?v=<?php echo filemtime(get_template_directory() . '/responsive.css'); ?>" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
 
