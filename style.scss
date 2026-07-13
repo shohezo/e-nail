@@ -728,3 +728,42 @@ input.wpcf7-form-control.wpcf7-submit:hover::after {
 .wpcf7-not-valid-tip {
   color: red;
 }
+
+/* NEWS / お知らせ */
+.ly_news {
+  padding: 100px 20px 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  &_inner {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .bl_news_card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 40px 36px;
+    text-align: left;
+    box-shadow: 0 4px 20px rgba(75, 75, 75, 0.08);
+  }
+  .el_news_date {
+    display: block;
+    font-family: $s-ttlfont;
+    letter-spacing: 0.08em;
+    font-weight: bold;
+    color: $elcolor;
+    margin-bottom: 14px;
+  }
+  .bl_news_card h3 {
+    font-size: $f3;
+    font-weight: bold;
+    line-height: 1.5;
+    color: $basecolor;
+    margin-bottom: 20px;
+  }
+  .bl_news_card p {
+    font-weight: 300;
+    line-height: 1.9;
+    color: $basecolor;
+  }
+}

@@ -6,6 +6,28 @@
     </h1>
 </section>
 
+<!-- news -->
+<section class="ly_news hp_pt40" id="news" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <h2 class="bl_section_ttl" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
+        NEWS
+    </h2>
+    <p class="bl_section_subttl" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
+        お知らせ
+    </p>
+    <div class="ly_news_inner" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <div class="bl_news_card">
+            <p class="el_news_date">2026.10 -</p>
+            <h3>福岡から鹿児島へ、移転のお知らせ</h3>
+            <p>
+                いつもe-nailをご利用いただき、誠にありがとうございます。<br />
+                このたびe-nailは、2026年10月より拠点を福岡・薬院から鹿児島県姶良市へ移転いたします。<br />
+                場所は変わりますが、これからもおひとりおひとりの指先に寄り添うネイルをお届けしてまいります。<br />
+                移転後のご予約方法・詳細は、あらためて公式LINE、ホームページにてお知らせいたします。
+            </p>
+        </div>
+    </div>
+</section>
+
 <!-- about -->
 <section class="ly_about hp_pb120" id="about" data-aos="fade-up" data-aos-anchor-placement="top-center">
     <h2 class="bl_section_ttl" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
