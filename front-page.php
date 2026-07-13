@@ -16,7 +16,7 @@
     </p>
     <div class="ly_news_inner" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="bl_news_card">
-            <p class="el_news_date">2026.10 -</p>
+            <p class="el_news_date">2026.7</p>
             <h3>福岡から鹿児島へ、移転のお知らせ</h3>
             <p>
                 いつもe-nailをご利用いただき、誠にありがとうございます。<br />

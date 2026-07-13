@@ -721,7 +721,7 @@ input.wpcf7-form-control.wpcf7-submit:hover::after {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(182, 173, 160, 0.74);
+  background-color: rgba(182, 173, 160, 0.5);
 }
 .ly_news_inner {
   max-width: 720px;
