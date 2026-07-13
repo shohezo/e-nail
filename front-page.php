@@ -7,7 +7,7 @@
 </section>
 
 <!-- news -->
-<section class="ly_news hp_pt40" id="news" data-aos="fade-up" data-aos-anchor-placement="top-center">
+<section class="ly_news hp_pt40" id="news">
     <h2 class="bl_section_ttl" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
         INFORMATION
     </h2>
@@ -29,7 +29,7 @@
 </section>
 
 <!-- about -->
-<section class="ly_about hp_pb120" id="about" data-aos="fade-up" data-aos-anchor-placement="top-center">
+<section class="ly_about hp_pb120" id="about">
     <h2 class="bl_section_ttl" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
         ABOUT
     </h2>
