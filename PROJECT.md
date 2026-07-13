@@ -44,12 +44,24 @@
 - 本番テーマパス: `/e-nail-fukuoka.com/public_html/wp-content/themes/e-nail/`
 - lftp 接続時は**証明書検証を有効のまま**（`*.xserver.jp` で有効。`ssl:verify-certificate no` は使わない）
 
+## デプロイ運用（2026-07-13 構築）
+
+方式: **ローカル同期スクリプト `deploy.sh`**（GitHub Actions 自動デプロイは、公開リポジトリに認証情報を置く必要がある点と本番事故リスクから不採用）。
+
+- 判断基準は **Git 差分**（前回デプロイ commit → 現在）。サイズ/時刻比較に依存しないため、同じ文字数の修正も取りこぼさない。
+- `./deploy.sh preview` … 反映される変更ファイルを表示（無変更）
+- `./deploy.sh backup` … 本番テーマを `_backups/` に退避のみ
+- `./deploy.sh push` … 未コミットがあれば中止 → 自動バックアップ → 変更ファイルのみ本番へ反映
+- 前回デプロイ地点は `_backups/.last-deployed`（gitignore）に記録。
+- **push は本番反映。実行前に必ず preview で確認し、都度承認を得てから行う。**
+
+改修フロー: `~/e-nail` で編集 → commit → push（GitHub）→ `./deploy.sh preview` → 問題なければ `./deploy.sh push`。
+
 ## 未完了・次のアクション
 
-1. デプロイ手段を決定・構築（GitHub Actions 自動デプロイ or lftp/SFTP 同期スクリプト）
-2. テーマ改修時は**子テーマ**の利用を検討（本体テーマ更新での上書き回避）
-3. ローカル検証環境（Local by Flywheel / wp-env / Docker 等）の要否を判断
-4. 本番の `.git/`（2022 年の残骸）と `.DS_Store` の掃除を検討
+1. テーマ改修時は**子テーマ**の利用を検討（本体テーマ更新での上書き回避）
+2. ローカル検証環境（Local by Flywheel / wp-env / Docker 等）の要否を判断
+3. 本番の `.git/`（2022 年の残骸）と `.DS_Store` の掃除を検討
 
 ## 秘匿情報の扱い
 
