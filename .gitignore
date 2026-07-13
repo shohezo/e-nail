@@ -1,0 +1,12 @@
+# 認証情報（絶対にコミットしない）
+.env
+.env.*
+*.secret
+credentials*
+.netrc
+
+# 本番からの取得物（差分確認用の一時置き場）
+/_production/
+
+# macOS
+.DS_Store
