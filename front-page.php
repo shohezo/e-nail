@@ -9,7 +9,7 @@
 <!-- news -->
 <section class="ly_news hp_pt40" id="news" data-aos="fade-up" data-aos-anchor-placement="top-center">
     <h2 class="bl_section_ttl" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
-        NEWS
+        INFORMATION
     </h2>
     <p class="bl_section_subttl" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
         お知らせ
