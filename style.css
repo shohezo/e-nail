@@ -721,14 +721,14 @@ input.wpcf7-form-control.wpcf7-submit:hover::after {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(182, 173, 160, 0.5);
+  background-color: rgba(182, 173, 160, 0.74);
 }
 .ly_news_inner {
   max-width: 720px;
   margin: 0 auto;
 }
 .ly_news .bl_news_card {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   padding: 40px 36px;
   text-align: left;
