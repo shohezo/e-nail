@@ -1,7 +1,7 @@
 <!-- FOOTER -->
 <footer class="ly_footer">
     <a href="<?php bloginfo('template_url');?>" class="bl_footerLogo"><img
-            src="<?php bloginfo('template_url');?>/img/logo.svg" alt="e-nail" class="bl_footerLogo_img" border="0" /></a>
+            src="<?php bloginfo('template_url');?>/img/logo.svg?v=<?php echo filemtime(get_template_directory() . '/img/logo.svg'); ?>" alt="e-nail" class="bl_footerLogo_img" border="0" /></a>
     <br />
     <p>©e-nail, All Rights Reserved.</p>
     <a href="https://ss-design1104.com/" target="_blank" rel="noopener noreferrer" class="bl_production">

@@ -12,7 +12,7 @@
     <meta property="og:title" content="e-nail" />
     <meta property="og:description" content="福岡天神薬院にある完全予約制のプライベートネイルサロンです。" />
     <meta property="og:site_name" content="e-nail" />
-    <meta property="og:image" content="https://e-nail-fukuoka.com/wp-content/themes/e-nail/img/ogp.png" />
+    <meta property="og:image" content="https://e-nail-fukuoka.com/wp-content/themes/e-nail/img/ogp.png?v=<?php echo filemtime(get_template_directory() . '/img/ogp.png'); ?>" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -71,7 +71,7 @@
     <header class="ly_header">
         <div class="ly_header_inner">
             <div class="bl_headerLogo">
-                <a href="#"><img src="<?php bloginfo('template_url');?>/img/logo.svg" alt="e-nail"
+                <a href="#"><img src="<?php bloginfo('template_url');?>/img/logo.svg?v=<?php echo filemtime(get_template_directory() . '/img/logo.svg'); ?>" alt="e-nail"
                         class="bl_headerLogo_img" /></a>
             </div>
             <nav class="bl_headerNav">
