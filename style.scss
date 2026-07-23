@@ -199,9 +199,8 @@ img {
   display: flex;
   align-items: center;
   &_img {
-    width: 60px;
-    height: 60px;
-    margin-right: 1.6rem;
+    height: 44px;
+    width: auto;
   }
 }
 
@@ -619,6 +618,11 @@ iframe {
     margin-top: 30px;
     display: inline-block;
   }
+}
+.bl_footerLogo_img {
+  width: 200px;
+  max-width: 60%;
+  height: auto;
 }
 .bl_production {
   display: inline-flex;

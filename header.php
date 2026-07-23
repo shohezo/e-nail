@@ -69,12 +69,8 @@
     <header class="ly_header">
         <div class="ly_header_inner">
             <div class="bl_headerLogo">
-                <a href="#"><img src="<?php bloginfo('template_url');?>/img/logo.png" alt="サイトのロゴ"
+                <a href="#"><img src="<?php bloginfo('template_url');?>/img/logo.svg" alt="e-nail"
                         class="bl_headerLogo_img" /></a>
-                <a href="#" class="bl_headerLogo_ttl change-color"><img
-                        src="<?php bloginfo('template_url');?>/img/header_logo.png" alt="e-nail" border="0" /></a>
-                <a href="#" class="sp-only"><img src="<?php bloginfo('template_url');?>/img/header_logo_sponliy.png"
-                        alt="e-nail" border="0" /></a><br />
             </div>
             <nav class="bl_headerNav">
                 <ul class="bl_headerNav_list">

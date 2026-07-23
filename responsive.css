@@ -67,9 +67,9 @@ PC 960px以上
     padding-left: 0px;
   }
   .ly_header .bl_headerLogo_img {
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
+    height: 32px;
+    width: auto;
+    margin-right: 0;
   }
   .bl_headerLogo_ttl {
     display: none;

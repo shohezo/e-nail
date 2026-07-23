@@ -1,9 +1,7 @@
 <!-- FOOTER -->
 <footer class="ly_footer">
-    <a href="<?php bloginfo('template_url');?>" class="bl_footerLogo_ttl"><img
-            src="<?php bloginfo('template_url');?>/img/footer_logo.png" alt="american-gothic-font" border="0" /></a>
-    <a href="<?php bloginfo('template_url');?>" class="sp-only"><img
-            src="<?php bloginfo('template_url');?>/img/footer_logo_sponly.png" alt="e-nail" border="0" /></a>
+    <a href="<?php bloginfo('template_url');?>" class="bl_footerLogo"><img
+            src="<?php bloginfo('template_url');?>/img/logo.svg" alt="e-nail" class="bl_footerLogo_img" border="0" /></a>
     <br />
     <p>©e-nail, All Rights Reserved.</p>
     <a href="https://ss-design1104.com/" target="_blank" rel="noopener noreferrer" class="bl_production">
